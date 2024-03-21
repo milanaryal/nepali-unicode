@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nepali Unicode Keyboard Layout [Romanized]</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 15px;
+        max-width: 850px;
+      }
+      textarea {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 150px;
+        font-size: 18px;
+      }
+      figure {
+        margin: 0;
+        padding: 0;
+        margin-top: 3px;
+      }
+      img {
+        height: auto;
+        max-width: 100%;
+      }
+      iframe {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Nepali Unicode Keyboard Layout [Romanized]</h2>
+
+    <textarea id="nepalify-textarea" placeholder="यहा लेख्नुहोस" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+
+    <figure>
+        <img src="assets/romanized-nepali-unicode-keyboard-layout.svg" alt="Nepali Unicode Keyboard Layout (Romanized)" />
+        <figcaption>Nepali Unicode Keyboard Layout (Romanized)</figcaption>
+      </figure>
+
+    <!-- <script src="https://unpkg.com/nepalify"></script> -->
+    <script src="assets/nepalify.production.min.js"></script>
+    <script>
+      nepalify.interceptElementById("nepalify-textarea");
+    </script>
+
+<!-- <h4>Additional resources</h4>
+  <ul>
+    <li>Open sourced at <a href="https://github.com/suvash/nepalify">Nepalify.js on Github</a></li>
+    <li>More information about <a href="https://www.thapaliya.com/en/writings/romanized-nepali-unicode-keyboard-layout/" rel="nofollow">the keyboard layout is available here</a></li>
+</ul> -->
+  </body>
+</html>
